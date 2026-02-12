@@ -1,0 +1,1258 @@
+{
+  "$schema": "https://schemas.tokens.studio/token-transformer/schema",
+  "$description": "Mapped collection - final implementation tokens used in components",
+  "elevation": {
+    "1": {
+      "$value": "0px 1px 3px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(2, 99, 53, 0.07), 0px 2px 1px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Subtle elevation for cards and small components"
+    },
+    "2": {
+      "$value": "0px 1px 5px 0px rgba(0, 0, 0, 0.06), 0px 2px 2px 0px rgba(2, 99, 53, 0.07), 0px 2px 1px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Subtle elevation"
+    },
+    "3": {
+      "$value": "0px 1px 8px 0px rgba(0, 0, 0, 0.06), 0px 3px 4px 0px rgba(2, 99, 53, 0.07), 0px 3px 3px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Subtle elevation"
+    },
+    "4": {
+      "$value": "0px 1px 10px 0px rgba(0, 0, 0, 0.06), 0px 4px 5px 0px rgba(2, 99, 53, 0.07), 0px 2px 4px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Low elevation"
+    },
+    "5": {
+      "$value": "0px 1px 14px 0px rgba(0, 0, 0, 0.06), 0px 5px 8px 0px rgba(2, 99, 53, 0.07), 0px 3px 5px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Low elevation"
+    },
+    "6": {
+      "$value": "0px 1px 18px 0px rgba(0, 0, 0, 0.06), 0px 6px 10px 0px rgba(2, 99, 53, 0.07), 0px 3px 5px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium-low elevation"
+    },
+    "7": {
+      "$value": "0px 2px 16px 0px rgba(0, 0, 0, 0.06), 0px 7px 10px 0px rgba(2, 99, 53, 0.07), 0px 4px 5px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium-low elevation"
+    },
+    "8": {
+      "$value": "0px 3px 14px 0px rgba(0, 0, 0, 0.06), 0px 8px 10px 0px rgba(2, 99, 53, 0.07), 0px 5px 5px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium elevation"
+    },
+    "9": {
+      "$value": "0px 3px 16px 0px rgba(0, 0, 0, 0.06), 0px 9px 12px 0px rgba(2, 99, 53, 0.07), 0px 5px 6px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium elevation"
+    },
+    "10": {
+      "$value": "0px 4px 18px 0px rgba(0, 0, 0, 0.06), 0px 10px 14px 0px rgba(2, 99, 53, 0.07), 0px 6px 6px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium elevation"
+    },
+    "11": {
+      "$value": "0px 4px 20px 0px rgba(0, 0, 0, 0.06), 0px 11px 15px 0px rgba(2, 99, 53, 0.07), 0px 6px 7px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium elevation"
+    },
+    "12": {
+      "$value": "0px 5px 22px 0px rgba(0, 0, 0, 0.06), 0px 12px 17px 0px rgba(2, 99, 53, 0.07), 0px 7px 8px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium-high elevation"
+    },
+    "13": {
+      "$value": "0px 5px 24px 0px rgba(0, 0, 0, 0.06), 0px 13px 19px 0px rgba(2, 99, 53, 0.07), 0px 7px 8px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium-high elevation"
+    },
+    "14": {
+      "$value": "0px 5px 26px 0px rgba(0, 0, 0, 0.06), 0px 14px 21px 0px rgba(2, 99, 53, 0.07), 0px 7px 9px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Medium-high elevation for dropdowns and tooltips"
+    },
+    "15": {
+      "$value": "0px 6px 28px 0px rgba(0, 0, 0, 0.06), 0px 15px 22px 0px rgba(2, 99, 53, 0.07), 0px 8px 9px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "High elevation for floating elements"
+    },
+    "16": {
+      "$value": "0px 6px 30px 0px rgba(0, 0, 0, 0.06), 0px 16px 24px 0px rgba(2, 99, 53, 0.07), 0px 8px 10px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "High elevation for modals and dialogs"
+    },
+    "17": {
+      "$value": "0px 6px 32px 0px rgba(0, 0, 0, 0.06), 0px 17px 26px 0px rgba(2, 99, 53, 0.07), 0px 8px 11px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "High elevation for modals and dialogs"
+    },
+    "18": {
+      "$value": "0px 7px 34px 0px rgba(0, 0, 0, 0.06), 0px 18px 28px 0px rgba(2, 99, 53, 0.07), 0px 9px 11px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "High elevation"
+    },
+    "19": {
+      "$value": "0px 7px 36px 0px rgba(0, 0, 0, 0.06), 0px 19px 29px 0px rgba(2, 99, 53, 0.07), 0px 9px 12px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "High elevation"
+    },
+    "20": {
+      "$value": "0px 8px 38px 0px rgba(0, 0, 0, 0.06), 0px 20px 31px 0px rgba(2, 99, 53, 0.07), 0px 10px 13px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Very high elevation"
+    },
+    "21": {
+      "$value": "0px 8px 40px 0px rgba(0, 0, 0, 0.06), 0px 21px 33px 0px rgba(2, 99, 53, 0.07), 0px 10px 13px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Very high elevation"
+    },
+    "22": {
+      "$value": "0px 8px 42px 0px rgba(0, 0, 0, 0.06), 0px 22px 35px 0px rgba(2, 99, 53, 0.07), 0px 10px 14px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Very high elevation"
+    },
+    "23": {
+      "$value": "0px 9px 44px 0px rgba(0, 0, 0, 0.06), 0px 23px 36px 0px rgba(2, 99, 53, 0.07), 0px 11px 14px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Maximum elevation"
+    },
+    "24": {
+      "$value": "0px 9px 46px 0px rgba(0, 0, 0, 0.06), 0px 24px 38px 0px rgba(2, 99, 53, 0.07), 0px 11px 15px 0px rgba(0, 0, 0, 0.15)",
+      "$type": "shadow",
+      "$description": "Maximum elevation for top-level modals and critical overlays"
+    },
+    "focusedField": {
+      "$value": "0px 0px 2px 4px rgba(0, 146, 71, 1.0), 0px 0px 2px 3px rgba(227, 238, 234, 1.0)",
+      "$type": "shadow",
+      "$description": "Special elevation for focused form fields"
+    }
+  },
+  "spacing": {
+    "$description": "Spacing tokens - mapped from brand spacing scale",
+    "2": { "$value": "brand.spacing.2", "$type": "dimension" },
+    "4": { "$value": "brand.spacing.4", "$type": "dimension" },
+    "8": { "$value": "brand.spacing.8", "$type": "dimension" },
+    "12": { "$value": "brand.spacing.12", "$type": "dimension" },
+    "16": { "$value": "brand.spacing.16", "$type": "dimension" },
+    "20": { "$value": "brand.spacing.20", "$type": "dimension" },
+    "24": { "$value": "brand.spacing.24", "$type": "dimension" },
+    "28": { "$value": "brand.spacing.28", "$type": "dimension" },
+    "32": { "$value": "brand.spacing.32", "$type": "dimension" },
+    "36": { "$value": "brand.spacing.36", "$type": "dimension" },
+    "40": { "$value": "brand.spacing.40", "$type": "dimension" },
+    "44": { "$value": "brand.spacing.44", "$type": "dimension" },
+    "48": { "$value": "brand.spacing.48", "$type": "dimension" },
+    "52": { "$value": "brand.spacing.52", "$type": "dimension" },
+    "56": { "$value": "brand.spacing.56", "$type": "dimension" },
+    "60": { "$value": "brand.spacing.60", "$type": "dimension" },
+    "64": { "$value": "brand.spacing.64", "$type": "dimension" },
+    "68": { "$value": "brand.spacing.68", "$type": "dimension" },
+    "72": { "$value": "brand.spacing.72", "$type": "dimension" },
+    "76": { "$value": "brand.spacing.76", "$type": "dimension" },
+    "80": { "$value": "brand.spacing.80", "$type": "dimension" },
+    "84": { "$value": "brand.spacing.84", "$type": "dimension" },
+    "88": { "$value": "brand.spacing.88", "$type": "dimension" },
+    "92": { "$value": "brand.spacing.92", "$type": "dimension" },
+    "96": { "$value": "brand.spacing.96", "$type": "dimension" },
+    "100": { "$value": "brand.spacing.100", "$type": "dimension" },
+    "104": { "$value": "brand.spacing.104", "$type": "dimension" },
+    "108": { "$value": "brand.spacing.108", "$type": "dimension" },
+    "112": { "$value": "brand.spacing.112", "$type": "dimension" },
+    "116": { "$value": "brand.spacing.116", "$type": "dimension" },
+    "120": { "$value": "brand.spacing.120", "$type": "dimension" },
+    "124": { "$value": "brand.spacing.124", "$type": "dimension" },
+    "128": { "$value": "brand.spacing.128", "$type": "dimension" },
+    "132": { "$value": "brand.spacing.132", "$type": "dimension" },
+    "136": { "$value": "brand.spacing.136", "$type": "dimension" },
+    "140": { "$value": "brand.spacing.140", "$type": "dimension" },
+    "144": { "$value": "brand.spacing.144", "$type": "dimension" },
+    "148": { "$value": "brand.spacing.148", "$type": "dimension" },
+    "152": { "$value": "brand.spacing.152", "$type": "dimension" },
+    "156": { "$value": "brand.spacing.156", "$type": "dimension" },
+    "160": { "$value": "brand.spacing.160", "$type": "dimension" },
+    "164": { "$value": "brand.spacing.164", "$type": "dimension" },
+    "168": { "$value": "brand.spacing.168", "$type": "dimension" },
+    "172": { "$value": "brand.spacing.172", "$type": "dimension" },
+    "176": { "$value": "brand.spacing.176", "$type": "dimension" },
+    "180": { "$value": "brand.spacing.180", "$type": "dimension" },
+    "184": { "$value": "brand.spacing.184", "$type": "dimension" }
+  },
+  "typography": {
+    "$description": "Composite typography tokens - matches Figma variable naming with Mobile/ and Desktop/ prefixes",
+    "mobile": {
+      "heading": {
+        "h1": {
+          "bold": {
+            "$value": "Mobile/Heading/H1_Bold",
+            "$type": "typography",
+            "$description": "Mobile H1 Bold - 48px, bold weight, 125% line height"
+          }
+        },
+        "h2": {
+          "bold": {
+            "$value": "Mobile/Heading/H2_Bold",
+            "$type": "typography",
+            "$description": "Mobile H2 Bold - 36px, bold weight, 144% line height"
+          }
+        },
+        "h3": {
+          "bold": {
+            "$value": "Mobile/Heading/H3_Bold",
+            "$type": "typography",
+            "$description": "Mobile H3 Bold - 32px, bold weight, 133% line height"
+          }
+        },
+        "h4": {
+          "medium": {
+            "$value": "Mobile/Heading/H4_Medium",
+            "$type": "typography",
+            "$description": "Mobile H4 Medium - 28px, medium weight, 130% line height"
+          },
+          "bold": {
+            "$value": "Mobile/Heading/H4_Bold",
+            "$type": "typography",
+            "$description": "Mobile H4 Bold - 28px, bold weight, 130% line height"
+          }
+        },
+        "h5": {
+          "medium": {
+            "$value": "Mobile/Heading/H5_Medium",
+            "$type": "typography",
+            "$description": "Mobile H5 Medium - 22px, medium weight, 146% line height"
+          },
+          "bold": {
+            "$value": "Mobile/Heading/H5_Bold",
+            "$type": "typography",
+            "$description": "Mobile H5 Bold - 22px, bold weight, 146% line height"
+          }
+        },
+        "h6": {
+          "medium": {
+            "$value": "Mobile/Heading/H6_Medium",
+            "$type": "typography",
+            "$description": "Mobile H6 Medium - 20px, medium weight, 142% line height"
+          },
+          "bold": {
+            "$value": "Mobile/Heading/H6_Bold",
+            "$type": "typography",
+            "$description": "Mobile H6 Bold - 20px, bold weight, 133% line height"
+          }
+        }
+      },
+      "body": {
+        "regular": {
+          "$value": "Mobile/Body/Regular",
+          "$type": "typography",
+          "$description": "Mobile Body Regular - 18px, regular weight, 154% line height"
+        },
+        "medium": {
+          "$value": "Mobile/Body/Medium",
+          "$type": "typography",
+          "$description": "Mobile Body Medium - 18px, medium weight, 154% line height"
+        },
+        "bold": {
+          "$value": "Mobile/Body/Bold",
+          "$type": "typography",
+          "$description": "Mobile Body Bold - 18px, bold weight, 154% line height"
+        },
+        "boldCaps": {
+          "$value": "Mobile/Body/Bold_CAPS",
+          "$type": "typography",
+          "$description": "Mobile Body Bold Caps - 18px, bold weight, uppercase, 154% line height"
+        }
+      },
+      "small": {
+        "regular": {
+          "$value": "Mobile/Small/Regular",
+          "$type": "typography",
+          "$description": "Mobile Small Regular - 16px, regular weight, 148% line height"
+        },
+        "medium": {
+          "$value": "Mobile/Small/Medium",
+          "$type": "typography",
+          "$description": "Mobile Small Medium - 16px, medium weight, 148% line height"
+        },
+        "bold": {
+          "$value": "Mobile/Small/Bold",
+          "$type": "typography",
+          "$description": "Mobile Small Bold - 16px, bold weight, 148% line height"
+        },
+        "boldCaps": {
+          "$value": "Mobile/Small/Bold_CAPS",
+          "$type": "typography",
+          "$description": "Mobile Small Bold Caps - 16px, bold weight, uppercase, 148% line height"
+        }
+      },
+      "xsmall": {
+        "regular": {
+          "$value": "Mobile/Xsmall/Regular",
+          "$type": "typography",
+          "$description": "Mobile Xsmall Regular - 14px, regular weight, 142% line height"
+        },
+        "bold": {
+          "$value": "Mobile/Xsmall/Bold",
+          "$type": "typography",
+          "$description": "Mobile Xsmall Bold - 14px, bold weight, 142% line height"
+        },
+        "boldCaps": {
+          "$value": "Mobile/Xsmall/Bold_CAPS",
+          "$type": "typography",
+          "$description": "Mobile Xsmall Bold Caps - 14px, bold weight, uppercase, 142% line height"
+        }
+      },
+      "xxsmall": {
+        "regular": {
+          "$value": "Mobile/XXsmall/Regular",
+          "$type": "typography",
+          "$description": "Mobile XXsmall Regular - 12px, regular weight, uppercase, 165% line height"
+        },
+        "bold": {
+          "$value": "Mobile/XXsmall/Bold",
+          "$type": "typography",
+          "$description": "Mobile XXsmall Bold - 12px, bold weight, 165% line height"
+        },
+        "boldCaps": {
+          "$value": "Mobile/XXsmall/Bold_CAPS",
+          "$type": "typography",
+          "$description": "Mobile XXsmall Bold Caps - 12px, bold weight, uppercase, 165% line height"
+        }
+      }
+    },
+    "desktop": {
+      "heading": {
+        "h1": {
+          "bold": {
+            "$value": "Desktop/Heading/H1_Bold",
+            "$type": "typography",
+            "$description": "Desktop H1 Bold - 64px, bold weight, 125% line height"
+          }
+        },
+        "h2": {
+          "bold": {
+            "$value": "Desktop/Heading/H2_Bold",
+            "$type": "typography",
+            "$description": "Desktop H2 Bold - 40px, bold weight, 140% line height"
+          }
+        },
+        "h3": {
+          "bold": {
+            "$value": "Desktop/Heading/H3_Bold",
+            "$type": "typography",
+            "$description": "Desktop H3 Bold - 36px, bold weight, 134% line height"
+          }
+        },
+        "h4": {
+          "medium": {
+            "$value": "Desktop/Heading/H4_Medium",
+            "$type": "typography",
+            "$description": "Desktop H4 Medium - 32px, medium weight, 125% line height"
+          },
+          "bold": {
+            "$value": "Desktop/Heading/H4_Bold",
+            "$type": "typography",
+            "$description": "Desktop H4 Bold - 32px, bold weight, 125% line height"
+          }
+        },
+        "h5": {
+          "medium": {
+            "$value": "Desktop/Heading/H5_Medium",
+            "$type": "typography",
+            "$description": "Desktop H5 Medium - 24px, medium weight, 134% line height"
+          },
+          "bold": {
+            "$value": "Desktop/Heading/H5_Bold",
+            "$type": "typography",
+            "$description": "Desktop H5 Bold - 24px, bold weight, 134% line height"
+          }
+        },
+        "h6": {
+          "medium": {
+            "$value": "Desktop/Heading/H6_Medium",
+            "$type": "typography",
+            "$description": "Desktop H6 Medium - 18px, medium weight, 134% line height"
+          },
+          "bold": {
+            "$value": "Desktop/Heading/H6_Bold",
+            "$type": "typography",
+            "$description": "Desktop H6 Bold - 18px, bold weight, 134% line height"
+          }
+        }
+      },
+      "body": {
+        "regular": {
+          "$value": "Desktop/Body/Regular",
+          "$type": "typography",
+          "$description": "Desktop Body Regular - 16px, regular weight, 150% line height"
+        },
+        "medium": {
+          "$value": "Desktop/Body/Medium",
+          "$type": "typography",
+          "$description": "Desktop Body Medium - 16px, medium weight, 150% line height"
+        },
+        "bold": {
+          "$value": "Desktop/Body/Bold",
+          "$type": "typography",
+          "$description": "Desktop Body Bold - 16px, bold weight, 150% line height"
+        },
+        "boldCaps": {
+          "$value": "Desktop/Body/Bold_CAPS",
+          "$type": "typography",
+          "$description": "Desktop Body Bold Caps - 16px, bold weight, uppercase, 150% line height"
+        }
+      },
+      "small": {
+        "regular": {
+          "$value": "Desktop/Small/Regular",
+          "$type": "typography",
+          "$description": "Desktop Small Regular - 14px, regular weight, 140% line height"
+        },
+        "medium": {
+          "$value": "Desktop/Small/Medium",
+          "$type": "typography",
+          "$description": "Desktop Small Medium - 14px, medium weight, 140% line height"
+        },
+        "bold": {
+          "$value": "Desktop/Small/Bold",
+          "$type": "typography",
+          "$description": "Desktop Small Bold - 14px, bold weight, 140% line height"
+        },
+        "boldCaps": {
+          "$value": "Desktop/Small/Bold_CAPS",
+          "$type": "typography",
+          "$description": "Desktop Small Bold Caps - 14px, bold weight, uppercase, 140% line height"
+        }
+      },
+      "xsmall": {
+        "regular": {
+          "$value": "Desktop/Xsmall/Regular",
+          "$type": "typography",
+          "$description": "Desktop Xsmall Regular - 12px, regular weight, 134% line height"
+        },
+        "bold": {
+          "$value": "Desktop/Xsmall/Bold",
+          "$type": "typography",
+          "$description": "Desktop Xsmall Bold - 12px, bold weight, 134% line height"
+        },
+        "boldCaps": {
+          "$value": "Desktop/Xsmall/Bold_CAPS",
+          "$type": "typography",
+          "$description": "Desktop Xsmall Bold Caps - 12px, bold weight, uppercase, 134% line height"
+        }
+      },
+      "xxsmall": {
+        "regular": {
+          "$value": "Desktop/XXsmall/Regular",
+          "$type": "typography",
+          "$description": "Desktop XXsmall Regular - 11px, regular weight, uppercase, 148% line height"
+        },
+        "bold": {
+          "$value": "Desktop/XXsmall/Bold",
+          "$type": "typography",
+          "$description": "Desktop XXsmall Bold - 11px, bold weight, 148% line height"
+        },
+        "boldCaps": {
+          "$value": "Desktop/XXsmall/Bold_CAPS",
+          "$type": "typography",
+          "$description": "Desktop XXsmall Bold Caps - 11px, bold weight, uppercase, 148% line height"
+        }
+      }
+    }
+  },
+  "grid": {
+    "$description": "Grid system tokens for responsive layouts",
+    "breakpoints": {
+      "mobile": {
+        "$description": "Mobile breakpoint: 320px - 479px",
+        "min": {
+          "$value": "320px",
+          "$type": "dimension"
+        },
+        "max": {
+          "$value": "479px",
+          "$type": "dimension"
+        },
+        "container": {
+          "$value": "320px",
+          "$type": "dimension",
+          "$description": "Maximum container width"
+        },
+        "columns": {
+          "$value": "4",
+          "$type": "number",
+          "$description": "Number of grid columns"
+        },
+        "gutter": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "Space between columns (CSS: gap)"
+        },
+        "margin": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "Container padding (Figma term: margin, CSS: padding-left/right)"
+        },
+        "rows": {
+          "$description": "Row system for vertical rhythm (design reference)",
+          "height": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "gutter": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "offset": {
+            "$value": "4px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "tablet": {
+        "$description": "Tablet breakpoint: 480px - 639px",
+        "min": {
+          "$value": "480px",
+          "$type": "dimension"
+        },
+        "max": {
+          "$value": "639px",
+          "$type": "dimension"
+        },
+        "container": {
+          "$value": "480px",
+          "$type": "dimension",
+          "$description": "Maximum container width"
+        },
+        "columns": {
+          "$value": "8",
+          "$type": "number",
+          "$description": "Number of grid columns"
+        },
+        "gutter": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "Space between columns (CSS: gap)"
+        },
+        "margin": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "Container padding (Figma term: margin, CSS: padding-left/right)"
+        },
+        "rows": {
+          "$description": "Row system for vertical rhythm (design reference)",
+          "height": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "gutter": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "offset": {
+            "$value": "4px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "desktop": {
+        "$description": "Desktop breakpoint: 640px - 1023px",
+        "min": {
+          "$value": "640px",
+          "$type": "dimension"
+        },
+        "max": {
+          "$value": "1023px",
+          "$type": "dimension"
+        },
+        "container": {
+          "$value": "640px",
+          "$type": "dimension",
+          "$description": "Maximum container width"
+        },
+        "columns": {
+          "$value": "8",
+          "$type": "number",
+          "$description": "Number of grid columns"
+        },
+        "gutter": {
+          "$value": "24px",
+          "$type": "dimension",
+          "$description": "Space between columns (CSS: gap)"
+        },
+        "margin": {
+          "$value": "24px",
+          "$type": "dimension",
+          "$description": "Container padding (Figma term: margin, CSS: padding-left/right)"
+        },
+        "rows": {
+          "$description": "Row system for vertical rhythm (design reference)",
+          "height": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "gutter": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "offset": {
+            "$value": "4px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "desktop-l": {
+        "$description": "Desktop-L breakpoint: 1024px - 1365px",
+        "min": {
+          "$value": "1024px",
+          "$type": "dimension"
+        },
+        "max": {
+          "$value": "1365px",
+          "$type": "dimension"
+        },
+        "container": {
+          "$value": "1024px",
+          "$type": "dimension",
+          "$description": "Maximum container width"
+        },
+        "columns": {
+          "$value": "12",
+          "$type": "number",
+          "$description": "Number of grid columns"
+        },
+        "gutter": {
+          "$value": "24px",
+          "$type": "dimension",
+          "$description": "Space between columns (CSS: gap)"
+        },
+        "margin": {
+          "$value": "32px",
+          "$type": "dimension",
+          "$description": "Container padding (Figma term: margin, CSS: padding-left/right)"
+        },
+        "rows": {
+          "$description": "Row system for vertical rhythm (design reference)",
+          "height": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "gutter": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "offset": {
+            "$value": "4px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "desktop-xl": {
+        "$description": "Desktop-XL breakpoint: 1366px - 1919px",
+        "min": {
+          "$value": "1366px",
+          "$type": "dimension"
+        },
+        "max": {
+          "$value": "1919px",
+          "$type": "dimension"
+        },
+        "container": {
+          "$value": "1366px",
+          "$type": "dimension",
+          "$description": "Maximum container width"
+        },
+        "columns": {
+          "$value": "12",
+          "$type": "number",
+          "$description": "Number of grid columns"
+        },
+        "gutter": {
+          "$value": "24px",
+          "$type": "dimension",
+          "$description": "Space between columns (CSS: gap)"
+        },
+        "margin": {
+          "$value": "48px",
+          "$type": "dimension",
+          "$description": "Container padding (Figma term: margin, CSS: padding-left/right)"
+        },
+        "rows": {
+          "$description": "Row system for vertical rhythm (design reference)",
+          "height": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "gutter": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "offset": {
+            "$value": "4px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "desktop-xxl": {
+        "$description": "Desktop-XXL breakpoint: 1920px+",
+        "min": {
+          "$value": "1920px",
+          "$type": "dimension"
+        },
+        "max": {
+          "$value": null,
+          "$type": "dimension",
+          "$description": "No maximum (1920px and above)"
+        },
+        "container": {
+          "$value": "1920px",
+          "$type": "dimension",
+          "$description": "Maximum container width"
+        },
+        "columns": {
+          "$value": "12",
+          "$type": "number",
+          "$description": "Number of grid columns"
+        },
+        "gutter": {
+          "$value": "24px",
+          "$type": "dimension",
+          "$description": "Space between columns (CSS: gap)"
+        },
+        "margin": {
+          "$value": "80px",
+          "$type": "dimension",
+          "$description": "Container padding (Figma term: margin, CSS: padding-left/right)"
+        },
+        "rows": {
+          "$description": "Row system for vertical rhythm (design reference)",
+          "height": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "gutter": {
+            "$value": "4px",
+            "$type": "dimension"
+          },
+          "offset": {
+            "$value": "4px",
+            "$type": "dimension"
+          }
+        }
+      }
+    }
+  },
+  "icons": {
+    "$description": "Icon library with 4 size variants (16px, 20px, 24px, 36px). SVG files located at: assets/icons/",
+    "sizes": {
+      "16": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "Small icon size (16px)"
+      },
+      "20": {
+        "$value": "20px",
+        "$type": "dimension",
+        "$description": "Small-medium icon size (20px)"
+      },
+      "24": {
+        "$value": "24px",
+        "$type": "dimension",
+        "$description": "Medium icon size (24px)"
+      },
+      "36": {
+        "$value": "36px",
+        "$type": "dimension",
+        "$description": "Large icon size (36px)"
+      }
+    },
+    "social": {
+      "$description": "Social media icons",
+      "instagram": {
+        "$type": "asset",
+        "$description": "Instagram icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - instagram.svg",
+          "20": "assets/icons/Icon - 20px - instagram.svg",
+          "24": "assets/icons/Icon - 24px - instagram.svg",
+          "36": "assets/icons/Icon - 36px - instagram.svg"
+        }
+      },
+      "tiktok": {
+        "$type": "asset",
+        "$description": "TikTok icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - TikTok.svg",
+          "20": "assets/icons/Icon - 20px - TikTok.svg",
+          "24": "assets/icons/Icon - 24px - TikTok.svg",
+          "36": "assets/icons/Icon - 36px - TikTok.svg"
+        }
+      },
+      "youtube": {
+        "$type": "asset",
+        "$description": "YouTube icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - YouTube.svg",
+          "20": "assets/icons/Icon - 20px - YouTube.svg",
+          "24": "assets/icons/Icon - 24px - YouTube.svg",
+          "36": "assets/icons/Icon - 36px - YouTube.svg"
+        }
+      },
+      "facebook": {
+        "$type": "asset",
+        "$description": "Facebook icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - facebook.svg",
+          "20": "assets/icons/Icon - 20px - facebook.svg",
+          "24": "assets/icons/Icon - 24px - facebook.svg",
+          "36": "assets/icons/Icon - 36px - facebook.svg"
+        }
+      },
+      "x": {
+        "$type": "asset",
+        "$description": "X (formerly Twitter) icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - X_(formerly Twitter).svg",
+          "20": "assets/icons/Icon - 20px - X_(formerly Twitter).svg",
+          "24": "assets/icons/Icon - 24px - X_(formerly Twitter).svg",
+          "36": "assets/icons/Icon - 36px - X_(formerly Twitter).svg"
+        }
+      },
+      "linkedin": {
+        "$type": "asset",
+        "$description": "LinkedIn icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - linkedin.svg",
+          "20": "assets/icons/Icon - 20px - linkedin.svg",
+          "24": "assets/icons/Icon - 24px - linkedin.svg",
+          "36": "assets/icons/Icon - 36px - linkedin.svg"
+        }
+      }
+    },
+    "navigation": {
+      "$description": "Navigation and communication icons",
+      "home": {
+        "$type": "asset",
+        "$description": "Home icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - home.svg",
+          "20": "assets/icons/Icon - 20px - home.svg",
+          "24": "assets/icons/Icon - 24px - home.svg",
+          "36": "assets/icons/Icon - 36px - home.svg"
+        }
+      },
+      "search": {
+        "$type": "asset",
+        "$description": "Search icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - search.svg",
+          "20": "assets/icons/Icon - 20px - search.svg",
+          "24": "assets/icons/Icon - 24px - search.svg",
+          "36": "assets/icons/Icon - 36px - search.svg"
+        }
+      },
+      "mailOutlined": {
+        "$type": "asset",
+        "$description": "Mail outlined icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - mail_outlined.svg",
+          "20": "assets/icons/Icon - 20px - mail_outlined.svg",
+          "24": "assets/icons/Icon - 24px - mail_outlined.svg",
+          "36": "assets/icons/Icon - 36px - mail_outlined.svg"
+        }
+      },
+      "mailSolid": {
+        "$type": "asset",
+        "$description": "Mail solid icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px  - mail_solid.svg",
+          "20": "assets/icons/Icon - 20px  - mail_solid.svg",
+          "24": "assets/icons/Icon - 24px  - mail_solid.svg",
+          "36": "assets/icons/Icon - 36px  - mail_solid.svg"
+        }
+      },
+      "phone": {
+        "$type": "asset",
+        "$description": "Phone icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - phone.svg",
+          "20": "assets/icons/Icon - 20px - phone.svg",
+          "24": "assets/icons/Icon - 24px - phone.svg",
+          "36": "assets/icons/Icon - 36px - phone.svg"
+        }
+      },
+      "map": {
+        "$type": "asset",
+        "$description": "Map icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - map.svg",
+          "20": "assets/icons/Icon - 20px - map.svg",
+          "24": "assets/icons/Icon - 24px - map.svg",
+          "36": "assets/icons/Icon - 36px - map.svg"
+        }
+      },
+      "list": {
+        "$type": "asset",
+        "$description": "List icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - list.svg",
+          "20": "assets/icons/Icon - 20px - list.svg",
+          "24": "assets/icons/Icon - 24px - list.svg",
+          "36": "assets/icons/Icon - 36px - list.svg"
+        }
+      },
+      "menu": {
+        "$type": "asset",
+        "$description": "Menu icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - menu.svg",
+          "20": "assets/icons/Icon - 20px - menu.svg",
+          "24": "assets/icons/Icon - 24px - menu.svg",
+          "36": "assets/icons/Icon - 36px - menu.svg"
+        }
+      }
+    },
+    "arrows": {
+      "$description": "Arrow and directional icons",
+      "arrowLeftAlt": {
+        "$type": "asset",
+        "$description": "Left arrow alternative style - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - arrow_left_alt.svg",
+          "20": "assets/icons/Icon - 20px - arrow_left_alt.svg",
+          "24": "assets/icons/Icon - 24px - arrow_left_alt.svg",
+          "36": "assets/icons/Icon - 36px - arrow_left_alt.svg"
+        }
+      },
+      "arrowRightAlt": {
+        "$type": "asset",
+        "$description": "Right arrow alternative style - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - arrow_right_alt.svg",
+          "20": "assets/icons/Icon - 20px - arrow_right_alt.svg",
+          "24": "assets/icons/Icon - 24px - arrow_right_alt.svg",
+          "36": "assets/icons/Icon - 36px - arrow_right_alt.svg"
+        }
+      },
+      "arrowDownwardAlt": {
+        "$type": "asset",
+        "$description": "Downward arrow alternative style - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - arrow_downward_alt.svg",
+          "20": "assets/icons/Icon - 20px - arrow_downward_alt.svg",
+          "24": "assets/icons/Icon - 24px - arrow_downward_alt.svg",
+          "36": "assets/icons/Icon - 36px - arrow_downward_alt.svg"
+        }
+      },
+      "arrowUpwardAlt": {
+        "$type": "asset",
+        "$description": "Upward arrow alternative style - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - arrow_upward_alt.svg",
+          "20": "assets/icons/Icon - 20px - arrow_upward_alt.svg",
+          "24": "assets/icons/Icon - 24px - arrow_upward_alt.svg",
+          "36": "assets/icons/Icon - 36px - arrow_upward_alt.svg"
+        }
+      },
+      "keyboardArrowDown": {
+        "$type": "asset",
+        "$description": "Keyboard arrow down - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - keyboard_arrow_down.svg",
+          "20": "assets/icons/Icon - 20px - keyboard_arrow_down.svg",
+          "24": "assets/icons/Icon - 24px - keyboard_arrow_down.svg",
+          "36": "assets/icons/Icon - 36px - keyboard_arrow_down.svg"
+        }
+      },
+      "keyboardArrowUp": {
+        "$type": "asset",
+        "$description": "Keyboard arrow up - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - keyboard_arrow_up.svg",
+          "20": "assets/icons/Icon - 20px - keyboard_arrow_up.svg",
+          "24": "assets/icons/Icon - 24px - keyboard_arrow_up.svg",
+          "36": "assets/icons/Icon - 36px - keyboard_arrow_up.svg"
+        }
+      },
+      "keyboardArrowLeft": {
+        "$type": "asset",
+        "$description": "Keyboard arrow left - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - keyboard_arrow_left.svg",
+          "20": "assets/icons/Icon - 20px - keyboard_arrow_left.svg",
+          "24": "assets/icons/Icon - 24px - keyboard_arrow_left.svg",
+          "36": "assets/icons/Icon - 36px - keyboard_arrow_left.svg"
+        }
+      },
+      "keyboardArrowRight": {
+        "$type": "asset",
+        "$description": "Keyboard arrow right - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - keyboard_arrow_right.svg",
+          "20": "assets/icons/Icon - 20px - keyboard_arrow_right.svg",
+          "24": "assets/icons/Icon - 24px - keyboard_arrow_right.svg",
+          "36": "assets/icons/Icon - 36px - keyboard_arrow_right.svg"
+        }
+      },
+      "arrowDropUp": {
+        "$type": "asset",
+        "$description": "Arrow drop up - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - arrow_drop_up.svg",
+          "20": "assets/icons/Icon - 20px - arrow_drop_up.svg",
+          "24": "assets/icons/Icon - 24px - arrow_drop_up.svg",
+          "36": "assets/icons/Icon - 36px - arrow_drop_up.svg"
+        }
+      },
+      "arrowDropDown": {
+        "$type": "asset",
+        "$description": "Arrow drop down - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - arrow_drop_down.svg",
+          "20": "assets/icons/Icon - 20px - arrow_drop_down.svg",
+          "24": "assets/icons/Icon - 24px - arrow_drop_down.svg",
+          "36": "assets/icons/Icon - 36px - arrow_drop_down.svg"
+        }
+      }
+    },
+    "ui": {
+      "$description": "UI interaction and state icons",
+      "expand": {
+        "$type": "asset",
+        "$description": "Expand icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - expand.svg",
+          "20": "assets/icons/Icon - 20px - expand.svg",
+          "24": "assets/icons/Icon - 24px - expand.svg",
+          "36": "assets/icons/Icon - 36px - expand.svg"
+        }
+      },
+      "collapse": {
+        "$type": "asset",
+        "$description": "Collapse icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - collapse.svg",
+          "20": "assets/icons/Icon - 20px - collapse.svg",
+          "24": "assets/icons/Icon - 24px - collapse.svg",
+          "36": "assets/icons/Icon - 36px - collapse.svg"
+        }
+      },
+      "filters": {
+        "$type": "asset",
+        "$description": "Filters icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - filters.svg",
+          "20": "assets/icons/Icon - 20px - filters.svg",
+          "24": "assets/icons/Icon - 24px - filters.svg",
+          "36": "assets/icons/Icon - 36px - filters.svg"
+        }
+      },
+      "favoriteOutlined": {
+        "$type": "asset",
+        "$description": "Favorite outlined icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - favorite_outlined.svg",
+          "20": "assets/icons/Icon - 20px - favorite_outlined.svg",
+          "24": "assets/icons/Icon - 24px - favorite_outlined.svg",
+          "36": "assets/icons/Icon - 36px - favorite_outlined.svg"
+        }
+      },
+      "favoriteFilled": {
+        "$type": "asset",
+        "$description": "Favorite filled icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - favorite_filled.svg",
+          "20": "assets/icons/Icon - 20px - favorite_filled.svg",
+          "24": "assets/icons/Icon - 24px - favorite_filled.svg",
+          "36": "assets/icons/Icon - 36px - favorite_filled.svg"
+        }
+      },
+      "placeholder": {
+        "$type": "asset",
+        "$description": "Placeholder icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - placeholder_Icon.svg",
+          "20": "assets/icons/Icon - 20px - placeholder_Icon.svg",
+          "24": "assets/icons/Icon - 24px - placeholder_Icon.svg",
+          "36": "assets/icons/Icon - 36px - placeholder_Icon.svg"
+        }
+      },
+      "view": {
+        "$type": "asset",
+        "$description": "View icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - view.svg",
+          "20": "assets/icons/Icon - 20px - view.svg",
+          "24": "assets/icons/Icon - 24px - view.svg",
+          "36": "assets/icons/Icon - 36px - view.svg"
+        }
+      }
+    },
+    "forms": {
+      "$description": "Form control icons",
+      "checkBoxOutlineBlank": {
+        "$type": "asset",
+        "$description": "Checkbox outline blank - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - check_box_outline_blank.svg",
+          "20": "assets/icons/Icon - 20px - check_box_outline_blank.svg",
+          "24": "assets/icons/Icon - 24px - check_box_outline_blank.svg",
+          "36": "assets/icons/Icon - 36px - check_box_outline_blank.svg"
+        }
+      },
+      "checkBox": {
+        "$type": "asset",
+        "$description": "Checkbox checked - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - check_box.svg",
+          "20": "assets/icons/Icon - 20px - check_box.svg",
+          "24": "assets/icons/Icon - 24px - check_box.svg",
+          "36": "assets/icons/Icon - 36px - check_box.svg"
+        }
+      },
+      "radioButtonChecked": {
+        "$type": "asset",
+        "$description": "Radio button checked - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - radio_button_checked.svg",
+          "20": "assets/icons/Icon - 20px - radio_button_checked.svg",
+          "24": "assets/icons/Icon - 24px - radio_button_checked.svg",
+          "36": "assets/icons/Icon - 36px - radio_button_checked.svg"
+        }
+      },
+      "radioButtonUnchecked": {
+        "$type": "asset",
+        "$description": "Radio button unchecked - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - radio_button_unchecked.svg",
+          "20": "assets/icons/Icon - 20px - radio_button_unchecked.svg",
+          "24": "assets/icons/Icon - 24px - radio_button_unchecked.svg",
+          "36": "assets/icons/Icon - 36px - radio_button_unchecked.svg"
+        }
+      }
+    },
+    "actions": {
+      "$description": "Action and utility icons",
+      "cancel": {
+        "$type": "asset",
+        "$description": "Cancel icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - cancel.svg",
+          "20": "assets/icons/Icon - 20px - cancel.svg",
+          "24": "assets/icons/Icon - 24px - cancel.svg",
+          "36": "assets/icons/Icon - 36px - cancel.svg"
+        }
+      },
+      "delete": {
+        "$type": "asset",
+        "$description": "Delete icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - delete.svg",
+          "20": "assets/icons/Icon - 20px - delete.svg",
+          "24": "assets/icons/Icon - 24px - delete.svg",
+          "36": "assets/icons/Icon - 36px - delete.svg"
+        }
+      },
+      "edit": {
+        "$type": "asset",
+        "$description": "Edit icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - edit.svg",
+          "20": "assets/icons/Icon - 20px - edit.svg",
+          "24": "assets/icons/Icon - 24px - edit.svg",
+          "36": "assets/icons/Icon - 36px - edit.svg"
+        }
+      },
+      "add": {
+        "$type": "asset",
+        "$description": "Add icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - add.svg",
+          "20": "assets/icons/Icon - 20px - add.svg",
+          "24": "assets/icons/Icon - 24px - add.svg",
+          "36": "assets/icons/Icon - 36px - add.svg"
+        }
+      },
+      "export": {
+        "$type": "asset",
+        "$description": "Export icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - export.svg",
+          "20": "assets/icons/Icon - 20px - export.svg",
+          "24": "assets/icons/Icon - 24px - export.svg",
+          "36": "assets/icons/Icon - 36px - export.svg"
+        }
+      },
+      "dragHandle": {
+        "$type": "asset",
+        "$description": "Drag handle icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - drag_handle.svg",
+          "20": "assets/icons/Icon - 20px - drag_handle.svg",
+          "24": "assets/icons/Icon - 24px - drag_handle.svg",
+          "36": "assets/icons/Icon - 36px - drag_handle.svg"
+        }
+      }
+    },
+    "data": {
+      "$description": "Data and information icons",
+      "money": {
+        "$type": "asset",
+        "$description": "Money icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - money.svg",
+          "20": "assets/icons/Icon - 20px - money.svg",
+          "24": "assets/icons/Icon - 24px - money.svg",
+          "36": "assets/icons/Icon - 36px - money.svg"
+        }
+      },
+      "percent": {
+        "$type": "asset",
+        "$description": "Percent icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - percent.svg",
+          "20": "assets/icons/Icon - 20px - percent.svg",
+          "24": "assets/icons/Icon - 24px - percent.svg",
+          "36": "assets/icons/Icon - 36px - percent.svg"
+        }
+      },
+      "calendarMonth": {
+        "$type": "asset",
+        "$description": "Calendar month icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - calendar_month.svg",
+          "20": "assets/icons/Icon - 20px - calendar_month.svg",
+          "24": "assets/icons/Icon - 24px - calendar_month.svg",
+          "36": "assets/icons/Icon - 36px - calendar_month.svg"
+        }
+      },
+      "calendarToday": {
+        "$type": "asset",
+        "$description": "Calendar today icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - calendar_today.svg",
+          "20": "assets/icons/Icon - 20px - calendar_today.svg",
+          "24": "assets/icons/Icon - 24px - calendar_today.svg",
+          "36": "assets/icons/Icon - 36px - calendar_today.svg"
+        }
+      },
+      "language": {
+        "$type": "asset",
+        "$description": "Language icon - available in 16px, 20px, 24px, 36px",
+        "files": {
+          "16": "assets/icons/Icon - 16px - language.svg",
+          "20": "assets/icons/Icon - 20px - language.svg",
+          "24": "assets/icons/Icon - 24px - language.svg",
+          "36": "assets/icons/Icon - 36px - language.svg"
+        }
+      }
+    }
+  },
+  "references": {
+    "background": {
+      "paper": {
+        "$ref": "brand.palette.background.paper",
+        "$description": "References brand token for background color"
+      }
+    }
+  }
+}

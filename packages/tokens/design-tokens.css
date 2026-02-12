@@ -1,0 +1,678 @@
+/**
+ * Design Tokens CSS Variables
+ * Generated from 2026 Sip Design System
+ * Source: Figma file "2026 - SIP_DS_Foundations"
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;700&display=swap');
+
+:root {
+  /* Brand Collection - Typography */
+  /* Font Families */
+  --font-family-source-sans-3: Source Sans 3, sans-serif;
+  
+  /* Font Sizes - Desktop */
+  --font-size-desktop-h1: 64px;
+  --font-size-desktop-h2: 40px;
+  --font-size-desktop-h3: 36px;
+  --font-size-desktop-h4: 32px;
+  --font-size-desktop-h5: 24px;
+  --font-size-desktop-h6: 18px;
+  --font-size-desktop-body: 16px;
+  --font-size-desktop-small: 14px;
+  --font-size-desktop-xsmall: 12px;
+  --font-size-desktop-xxsmall: 11px;
+  
+  /* Font Sizes - Mobile */
+  --font-size-mobile-h1: 48px;
+  --font-size-mobile-h2: 36px;
+  --font-size-mobile-h3: 32px;
+  --font-size-mobile-h4: 28px;
+  --font-size-mobile-h5: 22px;
+  --font-size-mobile-h6: 20px;
+  --font-size-mobile-body: 18px;
+  --font-size-mobile-small: 16px;
+  --font-size-mobile-xsmall: 14px;
+  --font-size-mobile-xxsmall: 12px;
+  
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Brand Collection - Colors */
+  /* Black */
+  --color-black-medium-black: #212121;
+  --color-black-solid-black: #000000;
+  --color-black-light-black: #55555a;
+  
+  /* White */
+  --color-white-soft-white: #fafafa;
+  --color-white-grayish-white: #f0f0f0;
+  --color-white-solid-white: #ffffff;
+  
+  /* Gray */
+  --color-gray-solid-grey: #757575;
+  --color-gray-hint-grey: #90959e;
+  --color-gray-light-gray: #bcc5cf;
+  --color-gray-soft-gray: #dee1e7;
+  
+  /* Primary (Green) */
+  --color-primary-dark-green: #026335;
+  --color-primary-sip-green: #008540;
+  --color-primary-light-green: #50de94;
+  --color-primary-hint-green: #e3eeea;
+  --color-primary-soft-green: #f5faf7;
+  
+  /* Link Blue */
+  --color-link-blue-link-blue: #0457c8;
+  --color-link-blue-link-dark-blue: #2e73b8;
+  
+  /* Accent */
+  --color-accent-soft-yellow: #ffd166;
+  --color-accent-metallic-gold: #d4af37;
+  --color-accent-accent-grey: #cccccc;
+  --color-accent-cream: #fffdd0;
+  
+  /* Utility */
+  --color-utility-success: #00a557;
+  --color-utility-warning: #da7101;
+  --color-utility-danger: #d92626;
+  
+  /* Background */
+  --palette-background-paper: #ffffff;
+
+  /* Brand Collection - Spacing */
+  --spacing-2: 2px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-44: 44px;
+  --spacing-48: 48px;
+  --spacing-52: 52px;
+  --spacing-56: 56px;
+  --spacing-60: 60px;
+  --spacing-64: 64px;
+  --spacing-68: 68px;
+  --spacing-72: 72px;
+  --spacing-76: 76px;
+  --spacing-80: 80px;
+  --spacing-84: 84px;
+  --spacing-88: 88px;
+  --spacing-92: 92px;
+  --spacing-96: 96px;
+  --spacing-100: 100px;
+  --spacing-104: 104px;
+  --spacing-108: 108px;
+  --spacing-112: 112px;
+  --spacing-116: 116px;
+  --spacing-120: 120px;
+  --spacing-124: 124px;
+  --spacing-128: 128px;
+  --spacing-132: 132px;
+  --spacing-136: 136px;
+  --spacing-140: 140px;
+  --spacing-144: 144px;
+  --spacing-148: 148px;
+  --spacing-152: 152px;
+  --spacing-156: 156px;
+  --spacing-160: 160px;
+  --spacing-164: 164px;
+  --spacing-168: 168px;
+  --spacing-172: 172px;
+  --spacing-176: 176px;
+  --spacing-180: 180px;
+  --spacing-184: 184px;
+
+  /* Mapped Collection - Typography */
+  /* Desktop Typography Styles */
+  --desktop-h1-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-h1-bold-font-size: var(--font-size-desktop-h1);
+  --desktop-h1-bold-font-weight: var(--font-weight-bold);
+  --desktop-h1-bold-line-height: 1.25;
+  --desktop-h1-bold-letter-spacing: 0;
+
+  --desktop-h2-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-h2-bold-font-size: var(--font-size-desktop-h2);
+  --desktop-h2-bold-font-weight: var(--font-weight-bold);
+  --desktop-h2-bold-line-height: 1.4;
+  --desktop-h2-bold-letter-spacing: 0;
+
+  --desktop-h3-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-h3-bold-font-size: var(--font-size-desktop-h3);
+  --desktop-h3-bold-font-weight: var(--font-weight-bold);
+  --desktop-h3-bold-line-height: 1.34;
+  --desktop-h3-bold-letter-spacing: 0;
+
+  --desktop-h4-medium-font-family: var(--font-family-source-sans-3);
+  --desktop-h4-medium-font-size: var(--font-size-desktop-h4);
+  --desktop-h4-medium-font-weight: var(--font-weight-medium);
+  --desktop-h4-medium-line-height: 1.25;
+  --desktop-h4-medium-letter-spacing: 0;
+
+  --desktop-h4-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-h4-bold-font-size: var(--font-size-desktop-h4);
+  --desktop-h4-bold-font-weight: var(--font-weight-bold);
+  --desktop-h4-bold-line-height: 1.25;
+  --desktop-h4-bold-letter-spacing: 0;
+
+  --desktop-h5-medium-font-family: var(--font-family-source-sans-3);
+  --desktop-h5-medium-font-size: var(--font-size-desktop-h5);
+  --desktop-h5-medium-font-weight: var(--font-weight-medium);
+  --desktop-h5-medium-line-height: 1.34;
+  --desktop-h5-medium-letter-spacing: 0;
+
+  --desktop-h5-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-h5-bold-font-size: var(--font-size-desktop-h5);
+  --desktop-h5-bold-font-weight: var(--font-weight-bold);
+  --desktop-h5-bold-line-height: 1.34;
+  --desktop-h5-bold-letter-spacing: 0;
+
+  --desktop-h6-medium-font-family: var(--font-family-source-sans-3);
+  --desktop-h6-medium-font-size: var(--font-size-desktop-h6);
+  --desktop-h6-medium-font-weight: var(--font-weight-medium);
+  --desktop-h6-medium-line-height: 1.34;
+  --desktop-h6-medium-letter-spacing: 0;
+
+  --desktop-h6-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-h6-bold-font-size: var(--font-size-desktop-h6);
+  --desktop-h6-bold-font-weight: var(--font-weight-bold);
+  --desktop-h6-bold-line-height: 1.34;
+  --desktop-h6-bold-letter-spacing: 0;
+
+  --desktop-body-regular-font-family: var(--font-family-source-sans-3);
+  --desktop-body-regular-font-size: var(--font-size-desktop-body);
+  --desktop-body-regular-font-weight: var(--font-weight-regular);
+  --desktop-body-regular-line-height: 1.5;
+  --desktop-body-regular-letter-spacing: 0;
+
+  --desktop-body-medium-font-family: var(--font-family-source-sans-3);
+  --desktop-body-medium-font-size: var(--font-size-desktop-body);
+  --desktop-body-medium-font-weight: var(--font-weight-medium);
+  --desktop-body-medium-line-height: 1.5;
+  --desktop-body-medium-letter-spacing: 0;
+
+  --desktop-body-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-body-bold-font-size: var(--font-size-desktop-body);
+  --desktop-body-bold-font-weight: var(--font-weight-bold);
+  --desktop-body-bold-line-height: 1.5;
+  --desktop-body-bold-letter-spacing: 0;
+
+  --desktop-body-bold-caps-font-family: var(--font-family-source-sans-3);
+  --desktop-body-bold-caps-font-size: var(--font-size-desktop-body);
+  --desktop-body-bold-caps-font-weight: var(--font-weight-bold);
+  --desktop-body-bold-caps-line-height: 1.5;
+  --desktop-body-bold-caps-letter-spacing: 0;
+
+  --desktop-small-regular-font-family: var(--font-family-source-sans-3);
+  --desktop-small-regular-font-size: var(--font-size-desktop-small);
+  --desktop-small-regular-font-weight: var(--font-weight-regular);
+  --desktop-small-regular-line-height: 1.4;
+  --desktop-small-regular-letter-spacing: 0;
+
+  --desktop-small-medium-font-family: var(--font-family-source-sans-3);
+  --desktop-small-medium-font-size: var(--font-size-desktop-small);
+  --desktop-small-medium-font-weight: var(--font-weight-medium);
+  --desktop-small-medium-line-height: 1.4;
+  --desktop-small-medium-letter-spacing: 0;
+
+  --desktop-small-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-small-bold-font-size: var(--font-size-desktop-small);
+  --desktop-small-bold-font-weight: var(--font-weight-bold);
+  --desktop-small-bold-line-height: 1.4;
+  --desktop-small-bold-letter-spacing: 0;
+
+  --desktop-small-bold-caps-font-family: var(--font-family-source-sans-3);
+  --desktop-small-bold-caps-font-size: var(--font-size-desktop-small);
+  --desktop-small-bold-caps-font-weight: var(--font-weight-bold);
+  --desktop-small-bold-caps-line-height: 1.4;
+  --desktop-small-bold-caps-letter-spacing: 0;
+
+  --desktop-xsmall-regular-font-family: var(--font-family-source-sans-3);
+  --desktop-xsmall-regular-font-size: var(--font-size-desktop-xsmall);
+  --desktop-xsmall-regular-font-weight: var(--font-weight-regular);
+  --desktop-xsmall-regular-line-height: 1.34;
+  --desktop-xsmall-regular-letter-spacing: 0;
+
+  --desktop-xsmall-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-xsmall-bold-font-size: var(--font-size-desktop-xsmall);
+  --desktop-xsmall-bold-font-weight: var(--font-weight-bold);
+  --desktop-xsmall-bold-line-height: 1.34;
+  --desktop-xsmall-bold-letter-spacing: 0;
+
+  --desktop-xsmall-bold-caps-font-family: var(--font-family-source-sans-3);
+  --desktop-xsmall-bold-caps-font-size: var(--font-size-desktop-xsmall);
+  --desktop-xsmall-bold-caps-font-weight: var(--font-weight-bold);
+  --desktop-xsmall-bold-caps-line-height: 1.34;
+  --desktop-xsmall-bold-caps-letter-spacing: 0;
+
+  --desktop-xxsmall-regular-font-family: var(--font-family-source-sans-3);
+  --desktop-xxsmall-regular-font-size: var(--font-size-desktop-xxsmall);
+  --desktop-xxsmall-regular-font-weight: var(--font-weight-regular);
+  --desktop-xxsmall-regular-line-height: 1.48;
+  --desktop-xxsmall-regular-letter-spacing: 0;
+
+  --desktop-xxsmall-bold-font-family: var(--font-family-source-sans-3);
+  --desktop-xxsmall-bold-font-size: var(--font-size-desktop-xxsmall);
+  --desktop-xxsmall-bold-font-weight: var(--font-weight-bold);
+  --desktop-xxsmall-bold-line-height: 1.48;
+  --desktop-xxsmall-bold-letter-spacing: 0;
+
+  --desktop-xxsmall-bold-caps-font-family: var(--font-family-source-sans-3);
+  --desktop-xxsmall-bold-caps-font-size: var(--font-size-desktop-xxsmall);
+  --desktop-xxsmall-bold-caps-font-weight: var(--font-weight-bold);
+  --desktop-xxsmall-bold-caps-line-height: 1.48;
+  --desktop-xxsmall-bold-caps-letter-spacing: 0;
+
+  /* Mobile Typography Styles */
+  --mobile-h1-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-h1-bold-font-size: var(--font-size-mobile-h1);
+  --mobile-h1-bold-font-weight: var(--font-weight-bold);
+  --mobile-h1-bold-line-height: 1.25;
+  --mobile-h1-bold-letter-spacing: 0;
+
+  --mobile-h2-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-h2-bold-font-size: var(--font-size-mobile-h2);
+  --mobile-h2-bold-font-weight: var(--font-weight-bold);
+  --mobile-h2-bold-line-height: 1.44;
+  --mobile-h2-bold-letter-spacing: 0;
+
+  --mobile-h3-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-h3-bold-font-size: var(--font-size-mobile-h3);
+  --mobile-h3-bold-font-weight: var(--font-weight-bold);
+  --mobile-h3-bold-line-height: 1.33;
+  --mobile-h3-bold-letter-spacing: 0;
+
+  --mobile-h4-medium-font-family: var(--font-family-source-sans-3);
+  --mobile-h4-medium-font-size: var(--font-size-mobile-h4);
+  --mobile-h4-medium-font-weight: var(--font-weight-medium);
+  --mobile-h4-medium-line-height: 1.3;
+  --mobile-h4-medium-letter-spacing: 0;
+
+  --mobile-h4-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-h4-bold-font-size: var(--font-size-mobile-h4);
+  --mobile-h4-bold-font-weight: var(--font-weight-bold);
+  --mobile-h4-bold-line-height: 1.3;
+  --mobile-h4-bold-letter-spacing: 0;
+
+  --mobile-h5-medium-font-family: var(--font-family-source-sans-3);
+  --mobile-h5-medium-font-size: var(--font-size-mobile-h5);
+  --mobile-h5-medium-font-weight: var(--font-weight-medium);
+  --mobile-h5-medium-line-height: 1.46;
+  --mobile-h5-medium-letter-spacing: 0;
+
+  --mobile-h5-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-h5-bold-font-size: var(--font-size-mobile-h5);
+  --mobile-h5-bold-font-weight: var(--font-weight-bold);
+  --mobile-h5-bold-line-height: 1.46;
+  --mobile-h5-bold-letter-spacing: 0;
+
+  --mobile-h6-medium-font-family: var(--font-family-source-sans-3);
+  --mobile-h6-medium-font-size: var(--font-size-mobile-h6);
+  --mobile-h6-medium-font-weight: var(--font-weight-medium);
+  --mobile-h6-medium-line-height: 1.42;
+  --mobile-h6-medium-letter-spacing: 0;
+
+  --mobile-h6-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-h6-bold-font-size: var(--font-size-mobile-h6);
+  --mobile-h6-bold-font-weight: var(--font-weight-bold);
+  --mobile-h6-bold-line-height: 1.33;
+  --mobile-h6-bold-letter-spacing: 0;
+
+  --mobile-body-regular-font-family: var(--font-family-source-sans-3);
+  --mobile-body-regular-font-size: var(--font-size-mobile-body);
+  --mobile-body-regular-font-weight: var(--font-weight-regular);
+  --mobile-body-regular-line-height: 1.54;
+  --mobile-body-regular-letter-spacing: 0;
+
+  --mobile-body-medium-font-family: var(--font-family-source-sans-3);
+  --mobile-body-medium-font-size: var(--font-size-mobile-body);
+  --mobile-body-medium-font-weight: var(--font-weight-medium);
+  --mobile-body-medium-line-height: 1.54;
+  --mobile-body-medium-letter-spacing: 0;
+
+  --mobile-body-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-body-bold-font-size: var(--font-size-mobile-body);
+  --mobile-body-bold-font-weight: var(--font-weight-bold);
+  --mobile-body-bold-line-height: 1.54;
+  --mobile-body-bold-letter-spacing: 0;
+
+  --mobile-body-bold-caps-font-family: var(--font-family-source-sans-3);
+  --mobile-body-bold-caps-font-size: var(--font-size-mobile-body);
+  --mobile-body-bold-caps-font-weight: var(--font-weight-bold);
+  --mobile-body-bold-caps-line-height: 1.54;
+  --mobile-body-bold-caps-letter-spacing: 0;
+
+  --mobile-small-regular-font-family: var(--font-family-source-sans-3);
+  --mobile-small-regular-font-size: var(--font-size-mobile-small);
+  --mobile-small-regular-font-weight: var(--font-weight-regular);
+  --mobile-small-regular-line-height: 1.48;
+  --mobile-small-regular-letter-spacing: 0;
+
+  --mobile-small-medium-font-family: var(--font-family-source-sans-3);
+  --mobile-small-medium-font-size: var(--font-size-mobile-small);
+  --mobile-small-medium-font-weight: var(--font-weight-regular);
+  --mobile-small-medium-line-height: 1.48;
+  --mobile-small-medium-letter-spacing: 0;
+
+  --mobile-small-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-small-bold-font-size: var(--font-size-mobile-small);
+  --mobile-small-bold-font-weight: var(--font-weight-bold);
+  --mobile-small-bold-line-height: 1.48;
+  --mobile-small-bold-letter-spacing: 0;
+
+  --mobile-small-bold-caps-font-family: var(--font-family-source-sans-3);
+  --mobile-small-bold-caps-font-size: var(--font-size-mobile-small);
+  --mobile-small-bold-caps-font-weight: var(--font-weight-bold);
+  --mobile-small-bold-caps-line-height: 1.48;
+  --mobile-small-bold-caps-letter-spacing: 0;
+
+  --mobile-xsmall-regular-font-family: var(--font-family-source-sans-3);
+  --mobile-xsmall-regular-font-size: var(--font-size-mobile-xsmall);
+  --mobile-xsmall-regular-font-weight: var(--font-weight-regular);
+  --mobile-xsmall-regular-line-height: 1.42;
+  --mobile-xsmall-regular-letter-spacing: 0;
+
+  --mobile-xsmall-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-xsmall-bold-font-size: var(--font-size-mobile-xsmall);
+  --mobile-xsmall-bold-font-weight: var(--font-weight-bold);
+  --mobile-xsmall-bold-line-height: 1.42;
+  --mobile-xsmall-bold-letter-spacing: 0;
+
+  --mobile-xsmall-bold-caps-font-family: var(--font-family-source-sans-3);
+  --mobile-xsmall-bold-caps-font-size: var(--font-size-mobile-xsmall);
+  --mobile-xsmall-bold-caps-font-weight: var(--font-weight-bold);
+  --mobile-xsmall-bold-caps-line-height: 1.42;
+  --mobile-xsmall-bold-caps-letter-spacing: 0;
+
+  --mobile-xxsmall-regular-font-family: var(--font-family-source-sans-3);
+  --mobile-xxsmall-regular-font-size: var(--font-size-mobile-xxsmall);
+  --mobile-xxsmall-regular-font-weight: var(--font-weight-regular);
+  --mobile-xxsmall-regular-line-height: 1.65;
+  --mobile-xxsmall-regular-letter-spacing: 0;
+
+  --mobile-xxsmall-bold-font-family: var(--font-family-source-sans-3);
+  --mobile-xxsmall-bold-font-size: var(--font-size-mobile-xxsmall);
+  --mobile-xxsmall-bold-font-weight: var(--font-weight-bold);
+  --mobile-xxsmall-bold-line-height: 1.65;
+  --mobile-xxsmall-bold-letter-spacing: 0;
+
+  --mobile-xxsmall-bold-caps-font-family: var(--font-family-source-sans-3);
+  --mobile-xxsmall-bold-caps-font-size: var(--font-size-mobile-xxsmall);
+  --mobile-xxsmall-bold-caps-font-weight: var(--font-weight-bold);
+  --mobile-xxsmall-bold-caps-line-height: 1.65;
+  --mobile-xxsmall-bold-caps-letter-spacing: 0;
+
+  /* Mapped Collection - Spacing (References brand spacing) */
+  --spacing-mapped-2: var(--spacing-2);
+  --spacing-mapped-4: var(--spacing-4);
+  --spacing-mapped-8: var(--spacing-8);
+  --spacing-mapped-12: var(--spacing-12);
+  --spacing-mapped-16: var(--spacing-16);
+  --spacing-mapped-20: var(--spacing-20);
+  --spacing-mapped-24: var(--spacing-24);
+  --spacing-mapped-28: var(--spacing-28);
+  --spacing-mapped-32: var(--spacing-32);
+  --spacing-mapped-36: var(--spacing-36);
+  --spacing-mapped-40: var(--spacing-40);
+  --spacing-mapped-44: var(--spacing-44);
+  --spacing-mapped-48: var(--spacing-48);
+  --spacing-mapped-52: var(--spacing-52);
+  --spacing-mapped-56: var(--spacing-56);
+  --spacing-mapped-60: var(--spacing-60);
+  --spacing-mapped-64: var(--spacing-64);
+  --spacing-mapped-68: var(--spacing-68);
+  --spacing-mapped-72: var(--spacing-72);
+  --spacing-mapped-76: var(--spacing-76);
+  --spacing-mapped-80: var(--spacing-80);
+  --spacing-mapped-84: var(--spacing-84);
+  --spacing-mapped-88: var(--spacing-88);
+  --spacing-mapped-92: var(--spacing-92);
+  --spacing-mapped-96: var(--spacing-96);
+  --spacing-mapped-100: var(--spacing-100);
+  --spacing-mapped-104: var(--spacing-104);
+  --spacing-mapped-108: var(--spacing-108);
+  --spacing-mapped-112: var(--spacing-112);
+  --spacing-mapped-116: var(--spacing-116);
+  --spacing-mapped-120: var(--spacing-120);
+  --spacing-mapped-124: var(--spacing-124);
+  --spacing-mapped-128: var(--spacing-128);
+  --spacing-mapped-132: var(--spacing-132);
+  --spacing-mapped-136: var(--spacing-136);
+  --spacing-mapped-140: var(--spacing-140);
+  --spacing-mapped-144: var(--spacing-144);
+  --spacing-mapped-148: var(--spacing-148);
+  --spacing-mapped-152: var(--spacing-152);
+  --spacing-mapped-156: var(--spacing-156);
+  --spacing-mapped-160: var(--spacing-160);
+  --spacing-mapped-164: var(--spacing-164);
+  --spacing-mapped-168: var(--spacing-168);
+  --spacing-mapped-172: var(--spacing-172);
+  --spacing-mapped-176: var(--spacing-176);
+  --spacing-mapped-180: var(--spacing-180);
+  --spacing-mapped-184: var(--spacing-184);
+
+  /* Mapped Collection - Elevation */
+  /* Elevation Shadows */
+  --elevation-1: 0px 1px 3px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(2, 99, 53, 0.07), 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+  --elevation-2: 0px 1px 5px 0px rgba(0, 0, 0, 0.06), 0px 2px 2px 0px rgba(2, 99, 53, 0.07), 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+  --elevation-3: 0px 1px 8px 0px rgba(0, 0, 0, 0.06), 0px 3px 4px 0px rgba(2, 99, 53, 0.07), 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
+  --elevation-4: 0px 1px 10px 0px rgba(0, 0, 0, 0.06), 0px 4px 5px 0px rgba(2, 99, 53, 0.07), 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  --elevation-5: 0px 1px 14px 0px rgba(0, 0, 0, 0.06), 0px 5px 8px 0px rgba(2, 99, 53, 0.07), 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+  --elevation-6: 0px 1px 18px 0px rgba(0, 0, 0, 0.06), 0px 6px 10px 0px rgba(2, 99, 53, 0.07), 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+  --elevation-7: 0px 2px 16px 0px rgba(0, 0, 0, 0.06), 0px 7px 10px 0px rgba(2, 99, 53, 0.07), 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  --elevation-8: 0px 3px 14px 0px rgba(0, 0, 0, 0.06), 0px 8px 10px 0px rgba(2, 99, 53, 0.07), 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+  --elevation-9: 0px 3px 16px 0px rgba(0, 0, 0, 0.06), 0px 9px 12px 0px rgba(2, 99, 53, 0.07), 0px 5px 6px 0px rgba(0, 0, 0, 0.15);
+  --elevation-10: 0px 4px 18px 0px rgba(0, 0, 0, 0.06), 0px 10px 14px 0px rgba(2, 99, 53, 0.07), 0px 6px 6px 0px rgba(0, 0, 0, 0.15);
+  --elevation-11: 0px 4px 20px 0px rgba(0, 0, 0, 0.06), 0px 11px 15px 0px rgba(2, 99, 53, 0.07), 0px 6px 7px 0px rgba(0, 0, 0, 0.15);
+  --elevation-12: 0px 5px 22px 0px rgba(0, 0, 0, 0.06), 0px 12px 17px 0px rgba(2, 99, 53, 0.07), 0px 7px 8px 0px rgba(0, 0, 0, 0.15);
+  --elevation-13: 0px 5px 24px 0px rgba(0, 0, 0, 0.06), 0px 13px 19px 0px rgba(2, 99, 53, 0.07), 0px 7px 8px 0px rgba(0, 0, 0, 0.15);
+  --elevation-14: 0px 5px 26px 0px rgba(0, 0, 0, 0.06), 0px 14px 21px 0px rgba(2, 99, 53, 0.07), 0px 7px 9px 0px rgba(0, 0, 0, 0.15);
+  --elevation-15: 0px 6px 28px 0px rgba(0, 0, 0, 0.06), 0px 15px 22px 0px rgba(2, 99, 53, 0.07), 0px 8px 9px 0px rgba(0, 0, 0, 0.15);
+  --elevation-16: 0px 6px 30px 0px rgba(0, 0, 0, 0.06), 0px 16px 24px 0px rgba(2, 99, 53, 0.07), 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  --elevation-17: 0px 6px 32px 0px rgba(0, 0, 0, 0.06), 0px 17px 26px 0px rgba(2, 99, 53, 0.07), 0px 8px 11px 0px rgba(0, 0, 0, 0.15);
+  --elevation-18: 0px 7px 34px 0px rgba(0, 0, 0, 0.06), 0px 18px 28px 0px rgba(2, 99, 53, 0.07), 0px 9px 11px 0px rgba(0, 0, 0, 0.15);
+  --elevation-19: 0px 7px 36px 0px rgba(0, 0, 0, 0.06), 0px 19px 29px 0px rgba(2, 99, 53, 0.07), 0px 9px 12px 0px rgba(0, 0, 0, 0.15);
+  --elevation-20: 0px 8px 38px 0px rgba(0, 0, 0, 0.06), 0px 20px 31px 0px rgba(2, 99, 53, 0.07), 0px 10px 13px 0px rgba(0, 0, 0, 0.15);
+  --elevation-21: 0px 8px 40px 0px rgba(0, 0, 0, 0.06), 0px 21px 33px 0px rgba(2, 99, 53, 0.07), 0px 10px 13px 0px rgba(0, 0, 0, 0.15);
+  --elevation-22: 0px 8px 42px 0px rgba(0, 0, 0, 0.06), 0px 22px 35px 0px rgba(2, 99, 53, 0.07), 0px 10px 14px 0px rgba(0, 0, 0, 0.15);
+  --elevation-23: 0px 9px 44px 0px rgba(0, 0, 0, 0.06), 0px 23px 36px 0px rgba(2, 99, 53, 0.07), 0px 11px 14px 0px rgba(0, 0, 0, 0.15);
+  --elevation-24: 0px 9px 46px 0px rgba(0, 0, 0, 0.06), 0px 24px 38px 0px rgba(2, 99, 53, 0.07), 0px 11px 15px 0px rgba(0, 0, 0, 0.15);
+  
+  /* Special Elevation */
+  --elevation-focused-field: 0px 0px 2px 4px rgba(0, 146, 71, 1.0), 0px 0px 2px 3px rgba(227, 238, 234, 1.0);
+
+  /* Mapped Collection - Grid System */
+  /* Grid Breakpoints */
+  --grid-breakpoint-mobile: 320px;
+  --grid-breakpoint-tablet: 480px;
+  --grid-breakpoint-desktop: 640px;
+  --grid-breakpoint-desktop-l: 1024px;
+  --grid-breakpoint-desktop-xl: 1366px;
+  --grid-breakpoint-desktop-xxl: 1920px;
+
+  /* Grid Columns */
+  --grid-columns-mobile: 4;
+  --grid-columns-tablet: 8;
+  --grid-columns-desktop: 8;
+  --grid-columns-desktop-l: 12;
+  --grid-columns-desktop-xl: 12;
+  --grid-columns-desktop-xxl: 12;
+
+  /* Grid Gutters (space between columns) */
+  --grid-gutter-mobile: 16px;
+  --grid-gutter-tablet: 16px;
+  --grid-gutter-desktop: 24px;
+  --grid-gutter-desktop-l: 24px;
+  --grid-gutter-desktop-xl: 24px;
+  --grid-gutter-desktop-xxl: 24px;
+
+  /* Grid Margins (container padding - Figma term: margin) */
+  --grid-margin-mobile: 16px;
+  --grid-margin-tablet: 16px;
+  --grid-margin-desktop: 24px;
+  --grid-margin-desktop-l: 32px;
+  --grid-margin-desktop-xl: 48px;
+  --grid-margin-desktop-xxl: 80px;
+
+  /* Container Max Widths */
+  --container-mobile: 320px;
+  --container-tablet: 480px;
+  --container-desktop: 640px;
+  --container-desktop-l: 1024px;
+  --container-desktop-xl: 1366px;
+  --container-desktop-xxl: 1920px;
+
+  /* Grid Row System (design reference for vertical rhythm) */
+  --grid-row-height: 4px;
+  --grid-row-gutter: 4px;
+  --grid-row-offset: 4px;
+
+  /* Mapped Collection - Icons */
+  /* Icon Sizes */
+  --icon-size-16: 16px;
+  --icon-size-20: 20px;
+  --icon-size-24: 24px;
+  --icon-size-36: 36px;
+}
+
+/* Utility Classes for Elevation */
+.elevation-1 { box-shadow: var(--elevation-1); background-color: var(--palette-background-paper); }
+.elevation-2 { box-shadow: var(--elevation-2); background-color: var(--palette-background-paper); }
+.elevation-3 { box-shadow: var(--elevation-3); background-color: var(--palette-background-paper); }
+.elevation-4 { box-shadow: var(--elevation-4); background-color: var(--palette-background-paper); }
+.elevation-5 { box-shadow: var(--elevation-5); background-color: var(--palette-background-paper); }
+.elevation-6 { box-shadow: var(--elevation-6); background-color: var(--palette-background-paper); }
+.elevation-7 { box-shadow: var(--elevation-7); background-color: var(--palette-background-paper); }
+.elevation-8 { box-shadow: var(--elevation-8); background-color: var(--palette-background-paper); }
+.elevation-9 { box-shadow: var(--elevation-9); background-color: var(--palette-background-paper); }
+.elevation-10 { box-shadow: var(--elevation-10); background-color: var(--palette-background-paper); }
+.elevation-11 { box-shadow: var(--elevation-11); background-color: var(--palette-background-paper); }
+.elevation-12 { box-shadow: var(--elevation-12); background-color: var(--palette-background-paper); }
+.elevation-13 { box-shadow: var(--elevation-13); background-color: var(--palette-background-paper); }
+.elevation-14 { box-shadow: var(--elevation-14); background-color: var(--palette-background-paper); }
+.elevation-15 { box-shadow: var(--elevation-15); background-color: var(--palette-background-paper); }
+.elevation-16 { box-shadow: var(--elevation-16); background-color: var(--palette-background-paper); }
+.elevation-17 { box-shadow: var(--elevation-17); background-color: var(--palette-background-paper); }
+.elevation-18 { box-shadow: var(--elevation-18); background-color: var(--palette-background-paper); }
+.elevation-19 { box-shadow: var(--elevation-19); background-color: var(--palette-background-paper); }
+.elevation-20 { box-shadow: var(--elevation-20); background-color: var(--palette-background-paper); }
+.elevation-21 { box-shadow: var(--elevation-21); background-color: var(--palette-background-paper); }
+.elevation-22 { box-shadow: var(--elevation-22); background-color: var(--palette-background-paper); }
+.elevation-23 { box-shadow: var(--elevation-23); background-color: var(--palette-background-paper); }
+.elevation-24 { box-shadow: var(--elevation-24); background-color: var(--palette-background-paper); }
+.elevation-focused-field { box-shadow: var(--elevation-focused-field); }
+
+/* Grid Utility Classes */
+.grid {
+  display: grid;
+  gap: var(--grid-gutter-mobile);
+  grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
+}
+
+@media (min-width: 480px) {
+  .grid {
+    gap: var(--grid-gutter-tablet);
+    grid-template-columns: repeat(var(--grid-columns-tablet), 1fr);
+  }
+}
+
+@media (min-width: 640px) {
+  .grid {
+    gap: var(--grid-gutter-desktop);
+    grid-template-columns: repeat(var(--grid-columns-desktop), 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    gap: var(--grid-gutter-desktop-l);
+    grid-template-columns: repeat(var(--grid-columns-desktop-l), 1fr);
+  }
+}
+
+@media (min-width: 1366px) {
+  .grid {
+    gap: var(--grid-gutter-desktop-xl);
+    grid-template-columns: repeat(var(--grid-columns-desktop-xl), 1fr);
+  }
+}
+
+@media (min-width: 1920px) {
+  .grid {
+    gap: var(--grid-gutter-desktop-xxl);
+    grid-template-columns: repeat(var(--grid-columns-desktop-xxl), 1fr);
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-mobile);
+  margin: 0 auto;
+  padding-left: var(--grid-margin-mobile);
+  padding-right: var(--grid-margin-mobile);
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: var(--container-tablet);
+    padding-left: var(--grid-margin-tablet);
+    padding-right: var(--grid-margin-tablet);
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: var(--container-desktop);
+    padding-left: var(--grid-margin-desktop);
+    padding-right: var(--grid-margin-desktop);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: var(--container-desktop-l);
+    padding-left: var(--grid-margin-desktop-l);
+    padding-right: var(--grid-margin-desktop-l);
+  }
+}
+
+@media (min-width: 1366px) {
+  .container {
+    max-width: var(--container-desktop-xl);
+    padding-left: var(--grid-margin-desktop-xl);
+    padding-right: var(--grid-margin-desktop-xl);
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: var(--container-desktop-xxl);
+    padding-left: var(--grid-margin-desktop-xxl);
+    padding-right: var(--grid-margin-desktop-xxl);
+  }
+}
+
+/* Typography Utility Classes */
+.desktop-small-regular {
+  font-family: var(--desktop-small-regular-font-family);
+  font-size: var(--desktop-small-regular-font-size);
+  font-weight: var(--desktop-small-regular-font-weight);
+  line-height: var(--desktop-small-regular-line-height);
+  letter-spacing: var(--desktop-small-regular-letter-spacing);
+}
+
+.desktop-small-bold {
+  font-family: var(--desktop-small-bold-font-family);
+  font-size: var(--desktop-small-bold-font-size);
+  font-weight: var(--desktop-small-bold-font-weight);
+  line-height: var(--desktop-small-bold-line-height);
+  letter-spacing: var(--desktop-small-bold-letter-spacing);
+}

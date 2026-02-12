@@ -1,0 +1,8 @@
+{
+  "$schema": "https://schemas.tokens.studio/token-transformer/schema",
+  "$description": "Alias collection - semantic tokens that reference brand tokens",
+  "$note": "Alias variables bridge between brand and mapped collections. Select nodes in Figma that use alias variables to extract complete alias collection.",
+  "alias": {
+    "$description": "Alias collection will be populated as more variables are extracted from Figma"
+  }
+}

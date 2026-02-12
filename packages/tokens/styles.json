@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.tokens.studio/token-transformer/schema",
+  "$description": "Style definitions - text styles, effect styles, and paint styles",
+  "effects": {
+    "elevation": {
+      "$description": "Elevation effect styles corresponding to elevation tokens",
+      "1": { "$value": "mapped.elevation.1", "$type": "shadow" },
+      "2": { "$value": "mapped.elevation.2", "$type": "shadow" },
+      "3": { "$value": "mapped.elevation.3", "$type": "shadow" },
+      "4": { "$value": "mapped.elevation.4", "$type": "shadow" },
+      "5": { "$value": "mapped.elevation.5", "$type": "shadow" },
+      "6": { "$value": "mapped.elevation.6", "$type": "shadow" },
+      "7": { "$value": "mapped.elevation.7", "$type": "shadow" },
+      "8": { "$value": "mapped.elevation.8", "$type": "shadow" },
+      "9": { "$value": "mapped.elevation.9", "$type": "shadow" },
+      "10": { "$value": "mapped.elevation.10", "$type": "shadow" },
+      "11": { "$value": "mapped.elevation.11", "$type": "shadow" },
+      "12": { "$value": "mapped.elevation.12", "$type": "shadow" },
+      "13": { "$value": "mapped.elevation.13", "$type": "shadow" },
+      "14": { "$value": "mapped.elevation.14", "$type": "shadow" },
+      "15": { "$value": "mapped.elevation.15", "$type": "shadow" },
+      "16": { "$value": "mapped.elevation.16", "$type": "shadow" },
+      "17": { "$value": "mapped.elevation.17", "$type": "shadow" },
+      "18": { "$value": "mapped.elevation.18", "$type": "shadow" },
+      "19": { "$value": "mapped.elevation.19", "$type": "shadow" },
+      "20": { "$value": "mapped.elevation.20", "$type": "shadow" },
+      "21": { "$value": "mapped.elevation.21", "$type": "shadow" },
+      "22": { "$value": "mapped.elevation.22", "$type": "shadow" },
+      "23": { "$value": "mapped.elevation.23", "$type": "shadow" },
+      "24": { "$value": "mapped.elevation.24", "$type": "shadow" },
+      "focusedField": { "$value": "mapped.elevation.focusedField", "$type": "shadow" }
+    }
+  },
+  "paint": {
+    "background": {
+      "paper": {
+        "$value": "brand.palette.background.paper",
+        "$type": "color"
+      }
+    }
+  },
+  "text": {
+    "$description": "Text styles will be populated as typography variables are extracted from Figma",
+    "$note": "Select text elements in Figma to extract text styles and their variable mappings"
+  }
+}

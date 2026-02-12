@@ -1,0 +1,17 @@
+{
+  "name": "sip-design-system",
+  "private": true,
+  "description": "2026 Sip Design System - tokens and documentation",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "storybook": "npm run storybook -w apps/storybook",
+    "build-storybook": "npm run build-storybook -w apps/storybook",
+    "publish-storybook": "chromatic --storybook-build-dir=storybook-static --storybook-base-dir=apps/storybook"
+  },
+  "devDependencies": {
+    "chromatic": "^11.0.0"
+  }
+}

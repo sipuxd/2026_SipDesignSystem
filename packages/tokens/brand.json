@@ -1,0 +1,338 @@
+{
+  "$schema": "https://schemas.tokens.studio/token-transformer/schema",
+  "$description": "Brand Collection - Foundation tokens with primitive design values",
+  "font": {
+    "family": {
+      "Source Sans 3": {
+        "$value": "Source Sans 3",
+        "$type": "fontFamily",
+        "$description": "Primary font family"
+      }
+    },
+    "size": {
+      "$description": "Font sizes vary by platform. Desktop sizes are larger for headings, smaller for body text.",
+      "desktop": {
+        "H1": {
+          "$value": "64",
+          "$type": "dimension",
+          "$description": "Desktop H1 font size in pixels"
+        },
+        "H2": {
+          "$value": "40",
+          "$type": "dimension",
+          "$description": "Desktop H2 font size in pixels"
+        },
+        "H3": {
+          "$value": "36",
+          "$type": "dimension",
+          "$description": "Desktop H3 font size in pixels"
+        },
+        "H4": {
+          "$value": "32",
+          "$type": "dimension",
+          "$description": "Desktop H4 font size in pixels"
+        },
+        "H5": {
+          "$value": "24",
+          "$type": "dimension",
+          "$description": "Desktop H5 font size in pixels"
+        },
+        "H6": {
+          "$value": "18",
+          "$type": "dimension",
+          "$description": "Desktop H6 font size in pixels"
+        },
+        "Body": {
+          "$value": "16",
+          "$type": "dimension",
+          "$description": "Desktop Body font size in pixels"
+        },
+        "Small": {
+          "$value": "14",
+          "$type": "dimension",
+          "$description": "Desktop Small font size in pixels"
+        },
+        "Xsmall": {
+          "$value": "12",
+          "$type": "dimension",
+          "$description": "Desktop Xsmall font size in pixels"
+        },
+        "XXsmall": {
+          "$value": "11",
+          "$type": "dimension",
+          "$description": "Desktop XXsmall font size in pixels"
+        }
+      },
+      "mobile": {
+        "H1": {
+          "$value": "48",
+          "$type": "dimension",
+          "$description": "Mobile H1 font size in pixels"
+        },
+        "H2": {
+          "$value": "36",
+          "$type": "dimension",
+          "$description": "Mobile H2 font size in pixels"
+        },
+        "H3": {
+          "$value": "32",
+          "$type": "dimension",
+          "$description": "Mobile H3 font size in pixels"
+        },
+        "H4": {
+          "$value": "28",
+          "$type": "dimension",
+          "$description": "Mobile H4 font size in pixels"
+        },
+        "H5": {
+          "$value": "22",
+          "$type": "dimension",
+          "$description": "Mobile H5 font size in pixels"
+        },
+        "H6": {
+          "$value": "20",
+          "$type": "dimension",
+          "$description": "Mobile H6 font size in pixels"
+        },
+        "Body": {
+          "$value": "18",
+          "$type": "dimension",
+          "$description": "Mobile Body font size in pixels"
+        },
+        "Small": {
+          "$value": "16",
+          "$type": "dimension",
+          "$description": "Mobile Small font size in pixels"
+        },
+        "Xsmall": {
+          "$value": "14",
+          "$type": "dimension",
+          "$description": "Mobile Xsmall font size in pixels"
+        },
+        "XXsmall": {
+          "$value": "12",
+          "$type": "dimension",
+          "$description": "Mobile XXsmall font size in pixels"
+        }
+      }
+    },
+    "weight": {
+      "regular": {
+        "$value": "regular",
+        "$type": "fontWeight",
+        "$description": "Regular font weight (400)"
+      },
+      "medium": {
+        "$value": "medium",
+        "$type": "fontWeight",
+        "$description": "Medium font weight (500)"
+      },
+      "bold": {
+        "$value": "bold",
+        "$type": "fontWeight",
+        "$description": "Bold font weight (700)"
+      }
+    }
+  },
+  "palette": {
+    "$description": "Color palette organized by category",
+    "black": {
+      "mediumBlack": {
+        "$value": "#212121",
+        "$type": "color",
+        "$description": "Medium black color"
+      },
+      "solidBlack": {
+        "$value": "#000000",
+        "$type": "color",
+        "$description": "Solid black color"
+      },
+      "lightBlack": {
+        "$value": "#55555a",
+        "$type": "color",
+        "$description": "Light black color"
+      }
+    },
+    "white": {
+      "softWhite": {
+        "$value": "#fafafa",
+        "$type": "color",
+        "$description": "Soft white color"
+      },
+      "grayishWhite": {
+        "$value": "#f0f0f0",
+        "$type": "color",
+        "$description": "Grayish white color"
+      },
+      "solidWhite": {
+        "$value": "#ffffff",
+        "$type": "color",
+        "$description": "Solid white color"
+      }
+    },
+    "gray": {
+      "solidGrey": {
+        "$value": "#757575",
+        "$type": "color",
+        "$description": "Solid grey color"
+      },
+      "hintGrey": {
+        "$value": "#90959e",
+        "$type": "color",
+        "$description": "Hint grey color"
+      },
+      "lightGray": {
+        "$value": "#bcc5cf",
+        "$type": "color",
+        "$description": "Light gray color"
+      },
+      "softGray": {
+        "$value": "#dee1e7",
+        "$type": "color",
+        "$description": "Soft gray color"
+      }
+    },
+    "primary": {
+      "darkGreen": {
+        "$value": "#026335",
+        "$type": "color",
+        "$description": "Dark green primary color"
+      },
+      "sipGreen": {
+        "$value": "#008540",
+        "$type": "color",
+        "$description": "SIP green primary color"
+      },
+      "lightGreen": {
+        "$value": "#50de94",
+        "$type": "color",
+        "$description": "Light green primary color"
+      },
+      "hintGreen": {
+        "$value": "#e3eeea",
+        "$type": "color",
+        "$description": "Hint green primary color"
+      },
+      "softGreen": {
+        "$value": "#f5faf7",
+        "$type": "color",
+        "$description": "Soft green primary color"
+      }
+    },
+    "linkBlue": {
+      "linkBlue": {
+        "$value": "#0457c8",
+        "$type": "color",
+        "$description": "Link blue color"
+      },
+      "linkDarkBlue": {
+        "$value": "#2e73b8",
+        "$type": "color",
+        "$description": "Link dark blue color"
+      }
+    },
+    "accent": {
+      "softYellow": {
+        "$value": "#ffd166",
+        "$type": "color",
+        "$description": "Soft yellow accent color"
+      },
+      "metallicGold": {
+        "$value": "#d4af37",
+        "$type": "color",
+        "$description": "Metallic gold accent color"
+      },
+      "accentGrey": {
+        "$value": "#cccccc",
+        "$type": "color",
+        "$description": "Accent grey color"
+      },
+      "cream": {
+        "$value": "#fffdd0",
+        "$type": "color",
+        "$description": "Cream accent color"
+      }
+    },
+    "utility": {
+      "success": {
+        "$value": "#00a557",
+        "$type": "color",
+        "$description": "Success utility color"
+      },
+      "warning": {
+        "$value": "#da7101",
+        "$type": "color",
+        "$description": "Warning utility color"
+      },
+      "danger": {
+        "$value": "#d92626",
+        "$type": "color",
+        "$description": "Danger utility color"
+      }
+    },
+    "background": {
+      "paper": {
+        "$value": "#ffffff",
+        "$type": "color",
+        "$description": "Base background color for surfaces and paper elements (references Solid White)"
+      }
+    }
+  },
+  "spacing": {
+    "$description": "Spacing scale in pixels. Values: 2, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144, 148, 152, 156, 160, 164, 168, 172, 176, 180, 184",
+    "2": { "$value": "2px", "$type": "dimension" },
+    "4": { "$value": "4px", "$type": "dimension" },
+    "8": { "$value": "8px", "$type": "dimension" },
+    "12": { "$value": "12px", "$type": "dimension" },
+    "16": { "$value": "16px", "$type": "dimension" },
+    "20": { "$value": "20px", "$type": "dimension" },
+    "24": { "$value": "24px", "$type": "dimension" },
+    "28": { "$value": "28px", "$type": "dimension" },
+    "32": { "$value": "32px", "$type": "dimension" },
+    "36": { "$value": "36px", "$type": "dimension" },
+    "40": { "$value": "40px", "$type": "dimension" },
+    "44": { "$value": "44px", "$type": "dimension" },
+    "48": { "$value": "48px", "$type": "dimension" },
+    "52": { "$value": "52px", "$type": "dimension" },
+    "56": { "$value": "56px", "$type": "dimension" },
+    "60": { "$value": "60px", "$type": "dimension" },
+    "64": { "$value": "64px", "$type": "dimension" },
+    "68": { "$value": "68px", "$type": "dimension" },
+    "72": { "$value": "72px", "$type": "dimension" },
+    "76": { "$value": "76px", "$type": "dimension" },
+    "80": { "$value": "80px", "$type": "dimension" },
+    "84": { "$value": "84px", "$type": "dimension" },
+    "88": { "$value": "88px", "$type": "dimension" },
+    "92": { "$value": "92px", "$type": "dimension" },
+    "96": { "$value": "96px", "$type": "dimension" },
+    "100": { "$value": "100px", "$type": "dimension" },
+    "104": { "$value": "104px", "$type": "dimension" },
+    "108": { "$value": "108px", "$type": "dimension" },
+    "112": { "$value": "112px", "$type": "dimension" },
+    "116": { "$value": "116px", "$type": "dimension" },
+    "120": { "$value": "120px", "$type": "dimension" },
+    "124": { "$value": "124px", "$type": "dimension" },
+    "128": { "$value": "128px", "$type": "dimension" },
+    "132": { "$value": "132px", "$type": "dimension" },
+    "136": { "$value": "136px", "$type": "dimension" },
+    "140": { "$value": "140px", "$type": "dimension" },
+    "144": { "$value": "144px", "$type": "dimension" },
+    "148": { "$value": "148px", "$type": "dimension" },
+    "152": { "$value": "152px", "$type": "dimension" },
+    "156": { "$value": "156px", "$type": "dimension" },
+    "160": { "$value": "160px", "$type": "dimension" },
+    "164": { "$value": "164px", "$type": "dimension" },
+    "168": { "$value": "168px", "$type": "dimension" },
+    "172": { "$value": "172px", "$type": "dimension" },
+    "176": { "$value": "176px", "$type": "dimension" },
+    "180": { "$value": "180px", "$type": "dimension" },
+    "184": { "$value": "184px", "$type": "dimension" }
+  },
+  "shades": {
+    "white": {
+      "$value": "#FFFFFF",
+      "$type": "color",
+      "$description": "White color"
+    }
+  }
+}

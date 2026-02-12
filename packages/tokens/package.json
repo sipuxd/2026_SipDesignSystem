@@ -1,0 +1,30 @@
+{
+  "name": "@sip-design-system/tokens",
+  "version": "1.0.0",
+  "description": "Design tokens (CSS variables and JSON) for 2026 Sip Design System",
+  "private": false,
+  "main": "design-tokens.css",
+  "exports": {
+    ".": "./design-tokens.css",
+    "./design-tokens.css": "./design-tokens.css",
+    "./brand.json": "./brand.json",
+    "./mapped.json": "./mapped.json",
+    "./alias.json": "./alias.json",
+    "./styles.json": "./styles.json"
+  },
+  "files": [
+    "*.css",
+    "*.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "sip"
+  ],
+  "license": "UNLICENSED"
+}

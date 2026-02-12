@@ -1,0 +1,66 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# 2026 Sip Design System
+
+Foundations and tokens for the 2026 Sip Design System, documented in Storybook.
+
+## Design system sources (Figma)
+
+- **Components (source of truth):** [2026 - SIP Design System](https://www.figma.com/design/OhvdRjc8MDdIYteTWMIU2k/2026---SIP-Design-System) — All UI components (buttons, etc.) are defined here.
+- **Foundations / tokens:** [2026 - SIP_DS_Foundations](https://www.figma.com/design/5abNQShIsPh4oFUoOHSQte/2026---SIP_DS_Foundations) — Colors, typography, spacing, grid, and elevation in this doc come from this file.
+
+See **SOURCES.md** in the repo for details.
+
+## Foundations
+
+Use the **Foundations** section in the sidebar to explore:
+
+- **Colors** — Palette and CSS variables
+- **Typography** — Desktop and mobile scales, weights
+- **Spacing** — Scale from 2px to 184px
+- **Elevation** — Shadow levels 1–24 and focused field
+- **Grid** — Breakpoints, columns, gutters, container
+- **Icons** — Icon set by category and size
+
+## Get started
+
+### Install
+
+Install the design tokens package in your project:
+
+```bash
+npm install @sip-design-system/tokens
+```
+
+### Use the tokens
+
+Import the stylesheet so design tokens are available as CSS custom properties:
+
+**In your main JS/TS file (e.g. `main.tsx` or `App.tsx`):**
+
+```js
+import '@sip-design-system/tokens/design-tokens.css';
+```
+
+**In a CSS file:**
+
+```css
+@import '@sip-design-system/tokens/design-tokens.css';
+```
+
+Then use the variables in your styles:
+
+```css
+.my-button {
+  background-color: var(--color-primary-sip-green);
+  color: var(--color-white-solid-white);
+  padding: var(--spacing-8) var(--spacing-16);
+  box-shadow: var(--elevation-2);
+  font-family: var(--font-family-source-sans-3);
+  font-size: var(--font-size-desktop-body);
+}
+```
+
+Use the **Foundations** section in this doc to explore all available colors, typography, spacing, elevation, grid, and icons.

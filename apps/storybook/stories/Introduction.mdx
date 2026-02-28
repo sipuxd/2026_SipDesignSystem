@@ -26,17 +26,43 @@ Use the **Foundations** section in the sidebar to explore:
 
 ## Get started
 
-### Install
+You can install **tokens only** (foundations) or **tokens + components** (foundations and React components like Button).
 
-Install the design tokens package in your project:
+### Install both (recommended)
+
+To use the design tokens and ready-made components (e.g. Button):
+
+```bash
+npm install @sip-design-system/tokens @sip-design-system/components
+```
+
+`@sip-design-system/components` depends on `@sip-design-system/tokens`, so installing the components package will pull in the tokens. You can also install both explicitly.
+
+**1. Load the design tokens** (once, e.g. in your main entry or `App.tsx`):
+
+```js
+import '@sip-design-system/tokens/design-tokens.css';
+```
+
+**2. Use a component:**
+
+```jsx
+import { Button } from '@sip-design-system/components';
+
+<Button type="primary" size="medium">Click me</Button>
+```
+
+Use the **Components** section in this doc for all props and variants.
+
+### Foundations only (tokens)
+
+If you only need design foundations (colors, typography, spacing, elevation, grid, icon metadata) and will build your own components:
 
 ```bash
 npm install @sip-design-system/tokens
 ```
 
-### Use the tokens
-
-Import the stylesheet so design tokens are available as CSS custom properties:
+**Use the tokens** — Import the stylesheet so design tokens are available as CSS custom properties:
 
 **In your main JS/TS file (e.g. `main.tsx` or `App.tsx`):**
 

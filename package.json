@@ -9,6 +9,7 @@
   "scripts": {
     "storybook": "npm run storybook -w apps/storybook",
     "build-storybook": "npm run build-storybook -w apps/storybook",
+    "serve-storybook": "npm run build-storybook && (cd apps/storybook && npx serve storybook-static -p 6006)",
     "publish-storybook": "chromatic --storybook-build-dir=storybook-static --storybook-base-dir=apps/storybook"
   },
   "devDependencies": {

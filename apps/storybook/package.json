@@ -3,12 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "storybook dev -p 6006",
+    "dev": "storybook dev --host 127.0.0.1 -p 6006",
     "build": "storybook build",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev --host 127.0.0.1 -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@sip-design-system/components": "*",
     "@sip-design-system/tokens": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

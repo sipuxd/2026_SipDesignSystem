@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button, type ButtonType, type ButtonSize, type ButtonInteraction } from '../../components/Button/Button';
+import { Button, type ButtonType, type ButtonSize, type ButtonInteraction } from '@sip-design-system/components';
 import { getIconList, type IconEntry } from '../foundations/iconData';
 
 const iconList = getIconList();
